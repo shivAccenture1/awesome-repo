@@ -1,0 +1,9 @@
+provider "google" {
+project = "shivani-334009"
+region = "asia-south1"
+zone = "asia-south1-a"
+}
+
+resource "google_compute_network" "vpc_network" {
+  name = "vpc-network"
+}
